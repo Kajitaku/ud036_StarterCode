@@ -120,7 +120,6 @@ main_page_content = '''
 '''
 
 def get_modal_html():
-
     # Get a single movie entry html template
     return '''
     <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
