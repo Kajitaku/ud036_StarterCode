@@ -1,5 +1,6 @@
 import webbrowser
 
+
 class Movie():
     """Movie class for a popup that is displayed at site top.
 

@@ -119,6 +119,7 @@ main_page_content = '''
 </html>
 '''
 
+
 def get_modal_html():
     # Get a single movie entry html template
     return '''
