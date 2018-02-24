@@ -1,6 +1,8 @@
 import media
 import fresh_tomatoes
 
+# Please get a Movie instance one by one that you want to show.
+
 toy_story = media.Movie(
     "Toy Story",
     "A story of a boy and his toys that come to life",
@@ -15,4 +17,5 @@ harry_potter = media.Movie(
      "Harry_Potter_and_the_Deathly_Hallows_%E2%80%93_Part_1.jpg"),
     "https://www.youtube.com/watch?v=9hXH0Ackz6w")
 
+# Set all Movie instances as list type arguments to show at top page.
 fresh_tomatoes.open_movies_page([toy_story, harry_potter])
